@@ -1,0 +1,48 @@
+<html><head>
+  <SCRIPT src="http://java.com/js/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'CrimeManagement.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGpubHAgc3BlYz0iMS4wIiB4bWxuczpqZng9Imh0dHA6Ly9qYXZhZnguY29tIiBocmVmPSJDcmltZU1hbmFnZW1lbnQuam5scCI+CiAgPGluZm9ybWF0aW9uPgogICAgPHRpdGxlPkNyaW1lTWFuYWdlbWVudDwvdGl0bGU+CiAgICA8dmVuZG9yPnJhamVzaDwvdmVuZG9yPgogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPgogICAgPG9mZmxpbmUtYWxsb3dlZC8+CiAgPC9pbmZvcm1hdGlvbj4KICA8cmVzb3VyY2VzPgogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgaHJlZj0iaHR0cDovL2phdmEuc3VuLmNvbS9wcm9kdWN0cy9hdXRvZGwvajJzZSIvPgogICAgPGphciBocmVmPSJDcmltZU1hbmFnZW1lbnQuamFyIiBzaXplPSIzMDg0MDgiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL2RhdGFiYXNlLmphciIgc2l6ZT0iNDU3MiIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogICAgPGphciBocmVmPSJsaWIvb2pkYmMxNC5qYXIiIHNpemU9IjE1MzY1NTQiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL3JzMnhtbC5qYXIiIHNpemU9IjE3MTU3OCIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogIDwvcmVzb3VyY2VzPgogIDxhcHBsaWNhdGlvbi1kZXNjIG1haW4tY2xhc3M9ImNyaW1lbWFuYWdlbWVudC5ob21lIiAgbmFtZT0iQ3JpbWVNYW5hZ2VtZW50IiA+CiAgPC9hcHBsaWNhdGlvbi1kZXNjPgogIDx1cGRhdGUgY2hlY2s9ImFsd2F5cyIvPgo8L2pubHA+Cg=='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedcrimemanagement() {
+        dtjava.embed(
+            {
+                id : 'crimemanagement',
+                toolkit : 'swing',
+                url : 'CrimeManagement_browser.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGpubHAgc3BlYz0iMS4wIiB4bWxuczpqZng9Imh0dHA6Ly9qYXZhZnguY29tIiBocmVmPSJDcmltZU1hbmFnZW1lbnRfYnJvd3Nlci5qbmxwIj4KICA8aW5mb3JtYXRpb24+CiAgICA8dGl0bGU+Q3JpbWVNYW5hZ2VtZW50PC90aXRsZT4KICAgIDx2ZW5kb3I+cmFqZXNoPC92ZW5kb3I+CiAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+CiAgICA8b2ZmbGluZS1hbGxvd2VkLz4KICA8L2luZm9ybWF0aW9uPgogIDxyZXNvdXJjZXM+CiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+CiAgICA8amFyIGhyZWY9IkNyaW1lTWFuYWdlbWVudC5qYXIiIHNpemU9IjMwODQwOCIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogICAgPGphciBocmVmPSJsaWIvZGF0YWJhc2UuamFyIiBzaXplPSI0NTcyIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi9vamRiYzE0LmphciIgc2l6ZT0iMTUzNjU1NCIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogICAgPGphciBocmVmPSJsaWIvcnMyeG1sLmphciIgc2l6ZT0iMTcxNTc4IiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgPC9yZXNvdXJjZXM+CiAgPGFwcGxldC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iY3JpbWVtYW5hZ2VtZW50LmhvbWUiICBuYW1lPSJDcmltZU1hbmFnZW1lbnQiID4KICA8L2FwcGxldC1kZXNjPgogIDx1cGRhdGUgY2hlY2s9ImFsd2F5cyIvPgo8L2pubHA+Cg=='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {
+                onGetSplash : function() {}
+            }
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedcrimemanagement);
+</script>
+
+</head><body>
+<h2>Test page for <b>CrimeManagement</b></h2>
+  <b>Webstart:</b> <a href='CrimeManagement.jnlp' onclick="return launchApplication('CrimeManagement.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>

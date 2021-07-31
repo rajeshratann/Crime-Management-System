@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CrimeManagement_browser.jnlp">
+  <information>
+    <title>CrimeManagement</title>
+    <vendor>rajesh</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CrimeManagement.jar" size="308408" download="eager" />
+    <jar href="lib/database.jar" size="4572" download="eager" />
+    <jar href="lib/ojdbc14.jar" size="1536554" download="eager" />
+    <jar href="lib/rs2xml.jar" size="171578" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="crimemanagement.home"  name="CrimeManagement" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
